@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.002010] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.002100] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.002171] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.017730] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.099601] (-) TimerEvent: {}
+[0.200168] (-) TimerEvent: {}
+[0.240478] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.241737] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/masanao/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/masanao/ros2_ws/install/person_msgs'], 'cwd': '/home/masanao/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'masanao'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/masanao/ros2_ws/src/mypkg/launch'), ('HOME', '/home/masanao'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/masanao/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'masanao'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/267_interop'), ('NAME', 'DESKTOP-K73QR66'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ninji/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', '172.21.16.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/masanao/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing')]), 'shell': False}
+[0.259099] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.285864] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.286125] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300354] (-) TimerEvent: {}
+[0.400864] (-) TimerEvent: {}
+[0.478057] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[0.501077] (-) TimerEvent: {}
+[0.601549] (-) TimerEvent: {}
+[0.630971] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/masanao/ros2_ws/build/mypkg/build', 'install', '--record', '/home/masanao/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/masanao/ros2_ws/src/mypkg', 'env': {'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'masanao', 'LC_TIME': 'ja_JP.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/home/masanao/ros2_ws/src/mypkg/launch', 'HOME': '/home/masanao', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-18.04', 'COLCON_PREFIX_PATH': '/home/masanao/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'masanao', 'GTK_IM_MODULE': 'uim', 'WSL_INTEROP': '/run/WSL/267_interop', 'NAME': 'DESKTOP-K73QR66', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ninji/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'DISPLAY': '172.21.16.1:0', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XMODIFIERS': '@im=uim', 'AMENT_PREFIX_PATH': '/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing', 'LC_MESSAGES': 'ja_JP.UTF-8', 'LC_NAME': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/masanao/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.701998] (-) TimerEvent: {}
+[0.802518] (-) TimerEvent: {}
+[0.903002] (-) TimerEvent: {}
+[0.918193] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.919139] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.919516] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.919809] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.920192] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.920341] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.964061] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.965909] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.966324] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.966475] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.966857] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.967176] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.968593] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.969285] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.971485] (mypkg) StdoutLine: {'line': b"removing '/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[0.972009] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[0.973204] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001594] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.002152] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.002444] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/masanao/ros2_ws/build/mypkg/install.log'\n"}
+[1.003093] (-) TimerEvent: {}
+[1.038038] (mypkg) CommandEnded: {'returncode': 0}
+[1.057375] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.103257] (-) TimerEvent: {}
+[1.203787] (-) TimerEvent: {}
+[1.304335] (-) TimerEvent: {}
+[1.404799] (-) TimerEvent: {}
+[1.505332] (-) TimerEvent: {}
+[1.605834] (-) TimerEvent: {}
+[1.706344] (-) TimerEvent: {}
+[1.730408] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.806549] (-) TimerEvent: {}
+[1.907102] (-) TimerEvent: {}
+[2.007656] (-) TimerEvent: {}
+[2.108105] (-) TimerEvent: {}
+[2.208582] (-) TimerEvent: {}
+[2.309052] (-) TimerEvent: {}
+[2.409468] (-) TimerEvent: {}
+[2.509967] (-) TimerEvent: {}
+[2.610446] (-) TimerEvent: {}
+[2.711043] (-) TimerEvent: {}
+[2.811893] (-) TimerEvent: {}
+[2.828359] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.912099] (-) TimerEvent: {}
+[2.949289] (person_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.949535] (person_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.949618] (person_msgs) StderrLine: {'line': b'  person_msgs --arguments-file\n'}
+[2.949683] (person_msgs) StderrLine: {'line': b'  /home/masanao/ros2_ws/build/person_msgs/rosidl_adapter__arguments__person_msgs.json\n'}
+[2.949747] (person_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[2.949809] (person_msgs) StderrLine: {'line': b'  /home/masanao/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs\n'}
+[2.949870] (person_msgs) StderrLine: {'line': b'  --output-file\n'}
+[2.949955] (person_msgs) StderrLine: {'line': b'  /home/masanao/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs.idls)\n'}
+[2.950149] (person_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.950462] (person_msgs) StderrLine: {'line': b'\n'}
+[2.950563] (person_msgs) StderrLine: {'line': b"  Error processing 'unit8 age' of 'person_msgs/Person': 'unit8'\n"}
+[2.950632] (person_msgs) StderrLine: {'line': b'\n'}
+[2.950694] (person_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.950753] (person_msgs) StderrLine: {'line': b'\n'}
+[2.950812] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main\n'}
+[2.950870] (person_msgs) StderrLine: {'line': b'      "__main__", mod_spec)\n'}
+[2.950929] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 85, in _run_code\n'}
+[2.950987] (person_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.951046] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.951105] (person_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.951163] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main\n'}
+[2.951220] (person_msgs) StderrLine: {'line': b'      pathlib.Path(relative_path), output_dir)\n'}
+[2.951276] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl\n'}
+[2.951427] (person_msgs) StderrLine: {'line': b"      package_dir, package_name, interface_file, output_dir / 'msg')\n"}
+[2.951499] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.951604] (person_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.951677] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 504, in parse_message_string\n'}
+[2.951735] (person_msgs) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[2.951792] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 273, in __init__\n'}
+[2.951862] (person_msgs) StderrLine: {'line': b'      context_package_name=context_package_name)\n'}
+[2.951914] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 202, in __init__\n'}
+[2.951966] (person_msgs) StderrLine: {'line': b'      raise InvalidResourceName(self.type)\n'}
+[2.952018] (person_msgs) StderrLine: {'line': b'\n'}
+[2.952070] (person_msgs) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: unit8\n'}
+[2.952122] (person_msgs) StderrLine: {'line': b'\n'}
+[2.952173] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.952225] (person_msgs) StderrLine: {'line': b'  /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.952277] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[2.952388] (person_msgs) StderrLine: {'line': b'\n'}
+[2.952463] (person_msgs) StderrLine: {'line': b'\n'}
+[2.952517] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.952585] (person_msgs) StdoutLine: {'line': b'See also "/home/masanao/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.954232] (person_msgs) CommandEnded: {'returncode': 1}
+[2.976112] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[2.991196] (-) EventReactorShutdown: {}
