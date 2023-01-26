@@ -1,0 +1,33 @@
+[0.574s] Invoking command in '/home/masanao/ros2_ws/src/mypkg': PYTHONPATH=/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/masanao/ros2_ws/build/mypkg/build install --record /home/masanao/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.788s] running egg_info
+[0.788s] creating ../../build/mypkg/mypkg.egg-info
+[0.788s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.789s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.789s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.789s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.790s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.790s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.822s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.824s] running build
+[0.824s] running build_py
+[0.824s] creating /home/masanao/ros2_ws/build/mypkg/build
+[0.824s] creating /home/masanao/ros2_ws/build/mypkg/build/lib
+[0.825s] creating /home/masanao/ros2_ws/build/mypkg/build/lib/mypkg
+[0.825s] copying mypkg/__init__.py -> /home/masanao/ros2_ws/build/mypkg/build/lib/mypkg
+[0.825s] running install
+[0.825s] running install_lib
+[0.826s] creating /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.827s] copying /home/masanao/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.827s] byte-compiling /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc
+[0.827s] running install_data
+[0.828s] creating /home/masanao/ros2_ws/install/mypkg/share/ament_index
+[0.828s] creating /home/masanao/ros2_ws/install/mypkg/share/ament_index/resource_index
+[0.829s] creating /home/masanao/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.829s] copying resource/mypkg -> /home/masanao/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.829s] copying package.xml -> /home/masanao/ros2_ws/install/mypkg/share/mypkg
+[0.829s] running install_egg_info
+[0.830s] Copying ../../build/mypkg/mypkg.egg-info to /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.831s] running install_scripts
+[0.852s] writing list of installed files to '/home/masanao/ros2_ws/build/mypkg/install.log'
+[0.874s] Invoked command in '/home/masanao/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/masanao/ros2_ws/build/mypkg/build install --record /home/masanao/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
