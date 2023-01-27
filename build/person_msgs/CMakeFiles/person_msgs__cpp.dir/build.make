@@ -56,6 +56,9 @@ include CMakeFiles/person_msgs__cpp.dir/progress.make
 CMakeFiles/person_msgs__cpp: rosidl_generator_cpp/person_msgs/msg/person.hpp
 CMakeFiles/person_msgs__cpp: rosidl_generator_cpp/person_msgs/msg/person__struct.hpp
 CMakeFiles/person_msgs__cpp: rosidl_generator_cpp/person_msgs/msg/person__traits.hpp
+CMakeFiles/person_msgs__cpp: rosidl_generator_cpp/person_msgs/srv/query.hpp
+CMakeFiles/person_msgs__cpp: rosidl_generator_cpp/person_msgs/srv/query__struct.hpp
+CMakeFiles/person_msgs__cpp: rosidl_generator_cpp/person_msgs/srv/query__traits.hpp
 
 
 rosidl_generator_cpp/person_msgs/msg/person.hpp: /opt/ros/dashing/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -69,6 +72,7 @@ rosidl_generator_cpp/person_msgs/msg/person.hpp: /opt/ros/dashing/share/rosidl_g
 rosidl_generator_cpp/person_msgs/msg/person.hpp: /opt/ros/dashing/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/person_msgs/msg/person.hpp: /opt/ros/dashing/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/person_msgs/msg/person.hpp: rosidl_adapter/person_msgs/msg/Person.idl
+rosidl_generator_cpp/person_msgs/msg/person.hpp: rosidl_adapter/person_msgs/srv/Query.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/dashing/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/masanao/ros2_ws/build/person_msgs/rosidl_generator_cpp__arguments.json
 
@@ -78,10 +82,22 @@ rosidl_generator_cpp/person_msgs/msg/person__struct.hpp: rosidl_generator_cpp/pe
 rosidl_generator_cpp/person_msgs/msg/person__traits.hpp: rosidl_generator_cpp/person_msgs/msg/person.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/person_msgs/msg/person__traits.hpp
 
+rosidl_generator_cpp/person_msgs/srv/query.hpp: rosidl_generator_cpp/person_msgs/msg/person.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/person_msgs/srv/query.hpp
+
+rosidl_generator_cpp/person_msgs/srv/query__struct.hpp: rosidl_generator_cpp/person_msgs/msg/person.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/person_msgs/srv/query__struct.hpp
+
+rosidl_generator_cpp/person_msgs/srv/query__traits.hpp: rosidl_generator_cpp/person_msgs/msg/person.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/person_msgs/srv/query__traits.hpp
+
 person_msgs__cpp: CMakeFiles/person_msgs__cpp
 person_msgs__cpp: rosidl_generator_cpp/person_msgs/msg/person.hpp
 person_msgs__cpp: rosidl_generator_cpp/person_msgs/msg/person__struct.hpp
 person_msgs__cpp: rosidl_generator_cpp/person_msgs/msg/person__traits.hpp
+person_msgs__cpp: rosidl_generator_cpp/person_msgs/srv/query.hpp
+person_msgs__cpp: rosidl_generator_cpp/person_msgs/srv/query__struct.hpp
+person_msgs__cpp: rosidl_generator_cpp/person_msgs/srv/query__traits.hpp
 person_msgs__cpp: CMakeFiles/person_msgs__cpp.dir/build.make
 
 .PHONY : person_msgs__cpp

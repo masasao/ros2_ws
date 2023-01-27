@@ -81,14 +81,40 @@ CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s
 CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o.provides.build: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o
 
 
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o: CMakeFiles/person_msgs__python.dir/flags.make
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o: rosidl_generator_py/person_msgs/srv/_query_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o   -c /home/masanao/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c
+
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/masanao/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c > CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.i
+
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/masanao/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c -o CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.s
+
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.requires:
+
+.PHONY : CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.requires
+
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.provides: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.requires
+	$(MAKE) -f CMakeFiles/person_msgs__python.dir/build.make CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.provides.build
+.PHONY : CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.provides
+
+CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.provides.build: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o
+
+
 # Object files for target person_msgs__python
 person_msgs__python_OBJECTS = \
-"CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o"
+"CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o" \
+"CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o"
 
 # External object files for target person_msgs__python
 person_msgs__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o
+rosidl_generator_py/person_msgs/libperson_msgs__python.so: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: CMakeFiles/person_msgs__python.dir/build.make
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: libperson_msgs__rosidl_typesupport_c.so
@@ -107,7 +133,7 @@ rosidl_generator_py/person_msgs/libperson_msgs__python.so: /opt/ros/dashing/lib/
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: /opt/ros/dashing/lib/librosidl_generator_c.so
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: /opt/ros/dashing/lib/librosidl_typesupport_c.so
 rosidl_generator_py/person_msgs/libperson_msgs__python.so: CMakeFiles/person_msgs__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/person_msgs/libperson_msgs__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/person_msgs/libperson_msgs__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_msgs__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +142,7 @@ CMakeFiles/person_msgs__python.dir/build: rosidl_generator_py/person_msgs/libper
 .PHONY : CMakeFiles/person_msgs__python.dir/build
 
 CMakeFiles/person_msgs__python.dir/requires: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o.requires
+CMakeFiles/person_msgs__python.dir/requires: CMakeFiles/person_msgs__python.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o.requires
 
 .PHONY : CMakeFiles/person_msgs__python.dir/requires
 

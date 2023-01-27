@@ -66,11 +66,18 @@ rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtp
 rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h: /opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h: /opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/person_msgs/msg/Person.idl
+rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/person_msgs/srv/Query.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/dashing/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/masanao/ros2_ws/build/person_msgs/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp: rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/person_msgs/srv/query__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/person_msgs/srv/query__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp: rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp
 
 CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp
@@ -96,14 +103,40 @@ CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fas
 CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o.provides.build: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o
 
 
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o -c /home/masanao/ros2_ws/build/person_msgs/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp
+
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/masanao/ros2_ws/build/person_msgs/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp > CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.i
+
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/masanao/ros2_ws/build/person_msgs/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp -o CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.s
+
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.requires:
+
+.PHONY : CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.requires
+
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.provides: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.requires
+	$(MAKE) -f CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.provides.build
+.PHONY : CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.provides
+
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.provides.build: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o
+
+
 # Object files for target person_msgs__rosidl_typesupport_fastrtps_c
 person_msgs__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o"
+"CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o" \
+"CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o"
 
 # External object files for target person_msgs__rosidl_typesupport_fastrtps_c
 person_msgs__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o
+libperson_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/build.make
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/dashing/lib/librcutils.so
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/dashing/lib/librmw.so
@@ -127,7 +160,7 @@ libperson_msgs__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libs
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/dashing/lib/libfastcdr.so.1.0.13
 libperson_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/masanao/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +169,7 @@ CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/build: libperson_msgs_
 .PHONY : CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/build
 
 CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/requires: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp.o.requires
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/requires: CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp.o.requires
 
 .PHONY : CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/requires
 
@@ -145,6 +179,8 @@ CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/person_msgs/msg/person__type_support_c.cpp
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/person_msgs/srv/query__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/person_msgs/srv/query__type_support_c.cpp
 	cd /home/masanao/ros2_ws/build/person_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/masanao/ros2_ws/src/person_msgs /home/masanao/ros2_ws/src/person_msgs /home/masanao/ros2_ws/build/person_msgs /home/masanao/ros2_ws/build/person_msgs /home/masanao/ros2_ws/build/person_msgs/CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/depend
 
