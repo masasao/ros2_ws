@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 masasao　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy                     
 from rclpy.node import Node      
 from std_msgs.msg import Int16   
@@ -6,7 +9,7 @@ class Talker():
     def __init__(self, node):
         self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
-        node.cteate_timer(0.5, self.cd)
+        node.create_timer(0.5, self.cd)
          
     def cb(self):
         msg = Int16()

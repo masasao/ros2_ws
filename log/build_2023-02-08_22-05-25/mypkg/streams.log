@@ -1,0 +1,25 @@
+[0.595s] Invoking command in '/home/masanao/ros2_ws/src/mypkg': PYTHONPATH=/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/masanao/ros2_ws/build/mypkg/build install --record /home/masanao/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.821s] running egg_info
+[0.822s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.822s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.823s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.823s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.823s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.861s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.864s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.864s] running build
+[0.865s] running build_py
+[0.865s] copying mypkg/talker.py -> /home/masanao/ros2_ws/build/mypkg/build/lib/mypkg
+[0.865s] running install
+[0.868s] running install_lib
+[0.868s] copying /home/masanao/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.868s] byte-compiling /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[0.868s] running install_data
+[0.868s] running install_egg_info
+[0.868s] removing '/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[0.868s] Copying ../../build/mypkg/mypkg.egg-info to /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.869s] running install_scripts
+[0.885s] Installing listener script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg
+[0.886s] Installing talker script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg
+[0.886s] writing list of installed files to '/home/masanao/ros2_ws/build/mypkg/install.log'
+[0.938s] Invoked command in '/home/masanao/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/masanao/ros2_ws/build/mypkg/build install --record /home/masanao/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

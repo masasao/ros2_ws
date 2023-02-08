@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "person_msgs")
 set(person_msgs_VERSION "0.0.0")
-set(person_msgs_MAINTAINER "masanao <ninjinuragosi@gmail.com>")
+set(person_msgs_MAINTAINER "masasao <ninjinuragosi@gmail.com>")
 set(person_msgs_BUILD_DEPENDS "rosidl_default_generators")
 set(person_msgs_BUILDTOOL_DEPENDS "ament_cmake")
 set(person_msgs_BUILD_EXPORT_DEPENDS )
