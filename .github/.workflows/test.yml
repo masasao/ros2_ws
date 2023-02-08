@@ -1,0 +1,16 @@
+ name: test
+ on: push
+ jobs:
+   test:
+     runs-on: ubuntu-18.04
+     container: masasao/ubuntu18.04-ros2:latest
+     steps:
+       - uses: actions/checkout@v2
+       - name: build and test
+         run: |
+           rsync -av ./ /root/ros2_ws/src/mypkg/
+           cd /root/ros2_ws
+           rosdep update
+           rosdep install -i --from-path src --dashing diademata -y
+           bash -xv ./src/mypkg/test/test.bash /root
+                                                                                                                                  ~                                                                                            ~                                                                                            ~                                                                                            ~                                                                     

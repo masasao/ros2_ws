@@ -1,0 +1,179 @@
+[0.252s] Invoking command in '/home/masanao/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/masanao/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/masanao/ros2_ws/install/person_msgs
+[0.488s] -- The C compiler identification is GNU 7.5.0
+[0.716s] -- The CXX compiler identification is GNU 7.5.0
+[0.773s] -- Check for working C compiler: /usr/bin/cc
+[0.918s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.918s] -- Detecting C compiler ABI info
+[1.062s] -- Detecting C compiler ABI info - done
+[1.068s] -- Detecting C compile features
+[1.382s] -- Detecting C compile features - done
+[1.384s] -- Check for working CXX compiler: /usr/bin/c++
+[1.497s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.498s] -- Detecting CXX compiler ABI info
+[1.617s] -- Detecting CXX compiler ABI info - done
+[1.621s] -- Detecting CXX compile features
+[2.109s] -- Detecting CXX compile features - done
+[2.113s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.142s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.142s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.322s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[2.936s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[3.480s] -- Found FastRTPS: /opt/ros/dashing/include  
+[3.500s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[4.441s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[4.629s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[4.634s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[6.380s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[6.405s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[6.406s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[6.502s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[6.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.502s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[6.503s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[6.525s] -- Found PythonExtra: .so  
+[8.449s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[8.471s] -- Added test 'lint_cmake' to check CMake code style
+[8.472s] -- Added test 'xmllint' to check XML markup files
+[8.476s] -- Configuring done
+[8.514s] -- Generating done
+[8.519s] -- Build files have been written to: /home/masanao/ros2_ws/build/person_msgs
+[8.524s] Invoked command in '/home/masanao/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/masanao/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/masanao/ros2_ws/install/person_msgs
+[8.536s] Invoking command in '/home/masanao/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/masanao/ros2_ws/build/person_msgs -- -j8 -l8
+[8.578s] [35m[1mScanning dependencies of target person_msgs__cpp[0m
+[8.578s] [35m[1mScanning dependencies of target person_msgs__rosidl_generator_c[0m
+[8.589s] [  2%] Built target person_msgs__cpp
+[8.589s] [ 13%] Built target person_msgs__rosidl_generator_c
+[8.602s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_introspection_c[0m
+[8.603s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[8.603s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_introspection_cpp[0m
+[8.619s] [ 32%] Built target person_msgs__rosidl_typesupport_introspection_c
+[8.619s] [ 35%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[8.623s] [ 45%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[8.634s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_fastrtps_c[0m
+[8.634s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_cpp[0m
+[8.651s] [ 67%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[8.651s] [ 67%] Built target person_msgs__rosidl_typesupport_cpp
+[8.663s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_c[0m
+[8.678s] [ 78%] Built target person_msgs__rosidl_typesupport_c
+[8.689s] [35m[1mScanning dependencies of target person_msgs[0m
+[8.700s] [ 78%] Built target person_msgs
+[8.722s] [ 81%] Built target person_msgs__py
+[8.734s] [35m[1mScanning dependencies of target person_msgs__python[0m
+[8.756s] [ 89%] Built target person_msgs__python
+[8.768s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_c__pyext[0m
+[8.768s] [35m[1mScanning dependencies of target person_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.785s] [100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.786s] [100%] Built target person_msgs__rosidl_typesupport_c__pyext
+[8.797s] Invoked command in '/home/masanao/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/masanao/ros2_ws/build/person_msgs -- -j8 -l8
+[8.895s] Invoking command in '/home/masanao/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/masanao/ros2_ws/build/person_msgs --target install -- -j8 -l8
+[8.945s] [  8%] Built target person_msgs__cpp
+[8.946s] [ 13%] Built target person_msgs__rosidl_generator_c
+[8.969s] [ 35%] Built target person_msgs__rosidl_typesupport_introspection_c
+[8.969s] [ 35%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[8.971s] [ 45%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[8.996s] [ 67%] Built target person_msgs__rosidl_typesupport_cpp
+[8.996s] [ 67%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[9.020s] [ 78%] Built target person_msgs__rosidl_typesupport_c
+[9.040s] [ 78%] Built target person_msgs
+[9.062s] [ 81%] Built target person_msgs__py
+[9.087s] [ 89%] Built target person_msgs__python
+[9.113s] [100%] Built target person_msgs__rosidl_typesupport_c__pyext
+[9.113s] [100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.132s] [36mInstall the project...[0m
+[9.141s] -- Install configuration: ""
+[9.141s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs
+[9.142s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so
+[9.142s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh
+[9.143s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so
+[9.143s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs
+[9.144s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv
+[9.144s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_fastrtps_c.h
+[9.144s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg
+[9.145s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.145s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h
+[9.145s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so
+[9.145s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs
+[9.146s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv
+[9.146s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__functions.c
+[9.146s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query.h
+[9.147s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__type_support.h
+[9.147s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__functions.h
+[9.147s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__struct.h
+[9.147s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg
+[9.148s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person.h
+[9.148s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.c
+[9.148s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.h
+[9.148s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.h
+[9.148s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.148s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.h
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/dds_fastrtps
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_fastrtps_cpp.hpp
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/dds_fastrtps
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_cpp.hpp
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__struct.hpp
+[9.149s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__traits.hpp
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query.hpp
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person.hpp
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__traits.hpp
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.hpp
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__type_support.c
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_introspection_c.h
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.c
+[9.150s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_c.h
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__type_support.cpp
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_introspection_cpp.hpp
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_cpp.hpp
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.cpp
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so
+[9.151s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh
+[9.151s] -- Installing: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py
+[9.179s] Compiling '/home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py'...
+[9.183s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg
+[9.184s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person.py
+[9.184s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person_s.c
+[9.184s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/__init__.py
+[9.184s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv
+[9.184s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv/_query_s.c
+[9.185s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv/_query.py
+[9.185s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv/__init__.py
+[9.185s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[9.185s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[9.185s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__python.so
+[9.186s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl
+[9.187s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.idl
+[9.187s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.srv
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Request.msg
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Response.msg
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh
+[9.188s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake
+[9.189s] -- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/package.xml
+[9.192s] Invoked command in '/home/masanao/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/masanao/ros2_ws/build/person_msgs --target install -- -j8 -l8
