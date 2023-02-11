@@ -2,8 +2,8 @@
  on: push
  jobs:
    test:
-    runs-on: ubuntu-18.04.5
-    container: masasao/ubuntu18.04.5-ros2:latest 
+    runs-on: ubuntu-18.04
+    container: masasao/ubuntu18.04-ros2:latest 
     steps:
       - uses: actions/checkout@v2    
       - name: build and test
