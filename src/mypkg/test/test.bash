@@ -1,7 +1,7 @@
 #!/bin/bash
 # SPDX-FileCopyrightText: 2023 masasao　　　　　
 # SPDX-License-Identifier: BSD-3-Clause
-ir=~
+dir=~
 [ "$1" != "" ] && dir="$1"
 
 cd $dir/ros2_ws

@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.002733] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.002849] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.002941] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.019135] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.100101] (-) TimerEvent: {}
+[0.200633] (-) TimerEvent: {}
+[0.240107] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.244941] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.245073] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/masanao/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/home/masanao/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'masanao'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/home/masanao/ros2_ws/install/person_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/masanao/ros2_ws/src/mypkg/launch'), ('HOME', '/home/masanao'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/masanao/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'masanao'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/27143_interop'), ('NAME', 'DESKTOP-K73QR66'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ninji/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', '172.21.16.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/masanao/ros2_ws/install/person_msgs:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/masanao/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/masanao/ros2_ws/install/person_msgs:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing'), ('WSLENV', '')]), 'shell': False}
+[0.300904] (-) TimerEvent: {}
+[0.305043] (person_msgs) StdoutLine: {'line': b'[  2%] Built target person_msgs__cpp\n'}
+[0.306074] (person_msgs) StdoutLine: {'line': b'[ 13%] Built target person_msgs__rosidl_generator_c\n'}
+[0.333442] (person_msgs) StdoutLine: {'line': b'[ 24%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[0.337251] (person_msgs) StdoutLine: {'line': b'[ 35%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.338933] (person_msgs) StdoutLine: {'line': b'[ 45%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.368366] (person_msgs) StdoutLine: {'line': b'[ 64%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[0.368611] (person_msgs) StdoutLine: {'line': b'[ 67%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.394206] (person_msgs) StdoutLine: {'line': b'[ 78%] Built target person_msgs__rosidl_typesupport_c\n'}
+[0.401101] (-) TimerEvent: {}
+[0.418014] (person_msgs) StdoutLine: {'line': b'[ 78%] Built target person_msgs\n'}
+[0.440030] (person_msgs) StdoutLine: {'line': b'[ 81%] Built target person_msgs__py\n'}
+[0.468301] (person_msgs) StdoutLine: {'line': b'[ 89%] Built target person_msgs__python\n'}
+[0.494746] (person_msgs) StdoutLine: {'line': b'[ 94%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[0.499228] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.501244] (-) TimerEvent: {}
+[0.514058] (person_msgs) CommandEnded: {'returncode': 0}
+[0.595021] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[0.601547] (-) TimerEvent: {}
+[0.609417] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/masanao/ros2_ws/build/person_msgs', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/masanao/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'masanao'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/home/masanao/ros2_ws/install/person_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/masanao/ros2_ws/src/mypkg/launch'), ('HOME', '/home/masanao'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/masanao/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'masanao'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/27143_interop'), ('NAME', 'DESKTOP-K73QR66'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ninji/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', '172.21.16.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/masanao/ros2_ws/install/person_msgs:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/masanao/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/masanao/ros2_ws/install/person_msgs:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing'), ('WSLENV', '')]), 'shell': False}
+[0.632814] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/masanao/ros2_ws/build/mypkg/build', 'install', '--record', '/home/masanao/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/masanao/ros2_ws/src/mypkg', 'env': {'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'masanao', 'LC_TIME': 'ja_JP.UTF-8', 'LD_LIBRARY_PATH': '/home/masanao/ros2_ws/install/person_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '2', 'OLDPWD': '/home/masanao/ros2_ws/src/mypkg/launch', 'HOME': '/home/masanao', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-18.04', 'COLCON_PREFIX_PATH': '/home/masanao/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'masanao', 'GTK_IM_MODULE': 'uim', 'WSL_INTEROP': '/run/WSL/27143_interop', 'NAME': 'DESKTOP-K73QR66', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ninji/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'DISPLAY': '172.21.16.1:0', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XMODIFIERS': '@im=uim', 'AMENT_PREFIX_PATH': '/home/masanao/ros2_ws/install/person_msgs:/home/masanao/ros2_ws/install/mypkg:/opt/ros/dashing', 'LC_MESSAGES': 'ja_JP.UTF-8', 'LC_NAME': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/masanao/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/masanao/ros2_ws/install/person_msgs', 'WSLENV': ''}, 'shell': False}
+[0.669245] (person_msgs) StdoutLine: {'line': b'[ 10%] Built target person_msgs__rosidl_generator_c\n'}
+[0.670424] (person_msgs) StdoutLine: {'line': b'[ 13%] Built target person_msgs__cpp\n'}
+[0.696744] (person_msgs) StdoutLine: {'line': b'[ 35%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[0.697108] (person_msgs) StdoutLine: {'line': b'[ 35%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.701872] (person_msgs) StdoutLine: {'line': b'[ 45%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.702180] (-) TimerEvent: {}
+[0.730915] (person_msgs) StdoutLine: {'line': b'[ 64%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.731482] (person_msgs) StdoutLine: {'line': b'[ 67%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[0.757941] (person_msgs) StdoutLine: {'line': b'[ 78%] Built target person_msgs__rosidl_typesupport_c\n'}
+[0.782790] (person_msgs) StdoutLine: {'line': b'[ 78%] Built target person_msgs\n'}
+[0.802377] (-) TimerEvent: {}
+[0.805657] (person_msgs) StdoutLine: {'line': b'[ 81%] Built target person_msgs__py\n'}
+[0.834178] (person_msgs) StdoutLine: {'line': b'[ 89%] Built target person_msgs__python\n'}
+[0.861237] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[0.861442] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.868169] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.868806] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.869085] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.869339] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.869590] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.869961] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.883898] (person_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.892960] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.893422] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[0.893738] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[0.894378] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[0.894521] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[0.894766] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.895074] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.895464] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_fastrtps_c.h\n'}
+[0.895673] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.896305] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.897045] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h\n'}
+[0.897291] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.897719] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.898030] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.898341] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__functions.c\n'}
+[0.898663] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query.h\n'}
+[0.898968] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__type_support.h\n'}
+[0.899206] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__functions.h\n'}
+[0.899486] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__struct.h\n'}
+[0.899768] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.900189] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person.h\n'}
+[0.900377] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.c\n'}
+[0.900562] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.h\n'}
+[0.900781] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.h\n'}
+[0.900983] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.901236] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.h\n'}
+[0.901548] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[0.901652] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.901830] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.901929] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/dds_fastrtps\n'}
+[0.902016] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.902100] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.902184] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.902268] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/dds_fastrtps\n'}
+[0.902351] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.902428] (-) TimerEvent: {}
+[0.902633] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.902767] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.902861] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.902943] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__struct.hpp\n'}
+[0.903023] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__traits.hpp\n'}
+[0.903104] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query.hpp\n'}
+[0.903184] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.903264] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person.hpp\n'}
+[0.903343] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__traits.hpp\n'}
+[0.903422] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.hpp\n'}
+[0.903500] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.903581] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.903659] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__type_support.c\n'}
+[0.903779] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_introspection_c.h\n'}
+[0.903869] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.903950] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.904030] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.c\n'}
+[0.904109] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_c.h\n'}
+[0.904197] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.904283] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.904363] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.904441] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__type_support.cpp\n'}
+[0.904519] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/srv/query__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.904651] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.904775] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.904865] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.cpp\n'}
+[0.904946] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.905026] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[0.905145] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py\n'}
+[0.906922] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.908176] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.908674] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.908917] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.909259] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.909404] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.910316] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.910779] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.913203] (mypkg) StdoutLine: {'line': b"removing '/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[0.914017] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[0.916198] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.936438] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.936661] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.936976] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/masanao/ros2_ws/build/mypkg/install.log'\n"}
+[0.956937] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg\n'}
+[0.957496] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person.py\n'}
+[0.957689] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person_s.c\n'}
+[0.958121] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/__init__.py\n'}
+[0.958312] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv\n'}
+[0.958534] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv/_query_s.c\n'}
+[0.958922] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv/_query.py\n'}
+[0.959026] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/srv/__init__.py\n'}
+[0.959310] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.959634] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.959907] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/lib/libperson_msgs__python.so\n'}
+[0.960458] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[0.961506] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.idl\n'}
+[0.961845] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[0.963562] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.srv\n'}
+[0.964040] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Request.msg\n'}
+[0.964368] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Response.msg\n'}
+[0.964673] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[0.964978] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[0.965533] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[0.968795] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[0.969011] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[0.969211] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[0.969461] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[0.969704] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[0.969898] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.970111] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.970310] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.971948] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[0.972974] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[0.974004] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/masanao/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[0.975388] (mypkg) CommandEnded: {'returncode': 0}
+[0.987888] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.993558] (person_msgs) CommandEnded: {'returncode': 0}
+[1.003268] (-) TimerEvent: {}
+[1.105582] (-) TimerEvent: {}
+[1.113063] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[1.116326] (-) EventReactorShutdown: {}

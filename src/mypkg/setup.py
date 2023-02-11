@@ -16,7 +16,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='masasao',
+    maintainer='masanao',
     maintainer_email='ninjinuragosi@gmail.com',
     description='a package for practice',
     license='BSD-3-Clause',
