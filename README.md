@@ -17,7 +17,6 @@ talker.pyがカウントした数字をlistener.pyが受け取り画面に表示
 　
 listener側  
 `[INFO] [listener]: Listen: 1  
-
  [INFO] [listener]: Listen: 2`
 
 
