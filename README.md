@@ -1,6 +1,6 @@
 # mypkg
 2022度のロボットシステム学の授業用リポジトリである。  
-このリポジトリにはtalker.pyコマンドとlistener.pyコマンドがあります。  　　
+このリポジトリにはtalker.pyコマンドとlistener.pyコマンドがあります。  
 また、このリポジトリはros2のパッケージです。
 ## talker.pyコマンドとlistener.pyコマンド
 talker.pyがカウントした数字をlistener.pyが受け取り画面に表示させます。
@@ -14,9 +14,10 @@ talker.pyがカウントした数字をlistener.pyが受け取り画面に表示
 `$ros2 run mypkg listener`  
 
 ### 出力
-talker側に出力はありません。　　
+　
 listener側  
-`[INFO] [listener]: Listen: 1  [INFO] [listener]: Listen: 2`
+`[INFO] [listener]: Listen: 1  
+ [INFO] [listener]: Listen: 2`
 
 
  
