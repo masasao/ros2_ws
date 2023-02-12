@@ -1,0 +1,22 @@
+[2.304s] Invoking command in '/home/masanao/ros2_ws/src/mypkg': PYTHONPATH=/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/masanao/ros2_ws/build/mypkg/build install --record /home/masanao/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[3.061s] running egg_info
+[3.061s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[3.062s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[3.063s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[3.064s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[3.065s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[3.232s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[3.249s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[3.250s] running build
+[3.251s] running build_py
+[3.253s] running install
+[3.254s] running install_lib
+[3.282s] running install_data
+[3.284s] running install_egg_info
+[3.294s] removing '/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[3.303s] Copying ../../build/mypkg/mypkg.egg-info to /home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[3.304s] running install_scripts
+[3.374s] Installing listener script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg
+[3.376s] Installing talker script to /home/masanao/ros2_ws/install/mypkg/lib/mypkg
+[3.378s] writing list of installed files to '/home/masanao/ros2_ws/build/mypkg/install.log'
+[3.473s] Invoked command in '/home/masanao/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/masanao/ros2_ws/build/mypkg/prefix_override:/home/masanao/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/masanao/ros2_ws/build/mypkg/build install --record /home/masanao/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
