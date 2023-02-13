@@ -1,0 +1,3 @@
+[submodule "src/src/mypkgg"]
+	path = src/src/mypkgg
+	url = git@github.com:masasao/mypkgg.git
