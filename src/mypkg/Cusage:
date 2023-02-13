@@ -1,2 +1,0 @@
-2: error: argument Call `ros2 <command> -h` for more detailed usage.: invalid choice: 'interface' (choose from 'action', 'component', 'daemon', 'extension_points', 'extensions', 'launch', 'lifecycle', 'msg', 'multicast', 'node', 'param', 'pkg', 'run', 'security', 'service', 'srv', 'topic')
-
